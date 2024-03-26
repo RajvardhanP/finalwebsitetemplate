@@ -1,0 +1,1311 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	  font-family: "Poppins", sans-serif;	
+	  user-select:none;
+}
+nav{
+margin-top:30px;	
+  height: 100px;
+  width: 100%;
+  padding:10px 100px;
+
+}
+label.logo{
+  color: #00A5F5;
+  font-size: 50px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: 300;
+  cursor:pointer;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #989898;
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration:none;
+}
+nav ul li a:hover{
+	color:red;
+}
+.active{
+	text-decoration:underline;	
+	color:red;
+}
+.avatar {
+width:80px;
+height:80px;
+border-radius:50%;
+text-align:center;
+border-style:none;
+color:#00A5F5;
+box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 10px;
+cursor:pointer;
+}
+.avatar:hover{
+	color:red;	
+}
+.checkbtn{
+  font-size: 30px;
+  color:black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+/* ****************CSS FOR COMPANY NAME*********************** */
+.company-name{
+	display:flex;
+	margin:260px auto;	
+	width:75%;
+}
+.company-name .name{
+	width:150%;
+	margin-bottom:30px;
+}
+.name h3{
+	font-size:30px;
+	font-weight:400;
+	color:#552599;
+	margin-bottom:20px;
+}
+.name h1{
+	font-size:70px;
+	font-weight:400;
+	color:#00A5F5;
+	padding-right:50px;
+	border-right:3px solid #00A5F5;
+}
+.company-name .info1{
+	padding:auto;
+	margin:auto 100px;
+	color:#001BA6;
+	font-size:20px;
+}
+/* ****************CSS FOR COMPANY FEATURES*********************** */
+.company-features{
+	width:75%;
+	margin:260px auto;	
+}
+.feat-info{
+	text-align:center;
+}
+.feat-info h1{
+	font-size:70px;
+	font-weight:400;
+	color:#552599;
+}
+.feat-info p{
+	color:#989898;
+	 font-size:20px;
+}
+.features{
+	display:flex;
+	justify-content:space-between;
+	text-align:center;
+	margin:50px 0;
+}
+.features .feat1{
+	width:30%;
+	padding:30px;
+	border-radius:60px;
+	cursor:pointer;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.feat1:hover{
+	background:#D8D8D8;
+}
+.feat1 i{
+	font-size:80px;
+	color:#00A5F5;
+	padding:40px;
+}
+.feat1  h3{
+	font-size:30px;
+	font-weight:400;
+}
+.feat1 p{
+	font-size:20px;
+	padding:10px 0;
+}
+/* ****************CSS FOR COMPANY ABOUT*********************** */
+.about-company{
+	display:flex;
+	width:75%;
+	justify-content:space-between;
+	margin:0 auto 250px;
+	
+}
+
+.about-company .company{
+	width:100%;
+	
+}
+.company h1{
+	font-size:50px;
+	font-weight:400;
+	color:#552599;
+}
+.company p {
+	font-size:20px;
+	color:#989898;
+}
+.about-company .about{
+	width:100%;
+	
+}
+.about p{
+	font-size:20px;
+	color:#989898;
+}
+/* ****************CSS FOR COMPANY PRODUCTS*********************** */
+.company-products{
+	width:75%;
+	margin:0 auto 250px;
+}
+.product-title{
+	text-align:center;
+	margin-bottom:30px;
+}
+.product-title h1{
+	 font-size:50px;
+	font-weight:400;
+	color:#552599;
+}
+.products{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	width:100%;
+}
+.products1{
+	width:45%;
+	border-radius:50px;
+	margin:20px 35px;
+	padding:40px 50px;
+	cursor:pointer;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	
+}
+.products1 .price{
+	display:flex;
+	justify-content:space-between;
+	padding:5px 5px 30px 5px;
+	
+}
+.products1 .price h3{
+	font-size:30px;
+	font-weight:400;
+}
+.products1 p{
+	font-size:20px;
+}
+.products1:hover{
+	background:#D8D8D8;
+}
+/* ****************CSS FOR COMPANY EVENTS*********************** */
+.company-event{
+	width:75%;
+	margin:0 auto 250px;;
+}
+.event-title{
+	text-align:center;
+	margin-bottom:25px;
+}
+.event-title h1{
+	font-size:50px;
+	font-weight:400;;
+	color:#552599;
+}
+.events{
+	display:flex;
+	justify-content:space-between;
+}
+.event1{
+	width:100%;
+	margin:10px;
+	padding:15px;
+	border-radius:50px;
+	cursor:pointer;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.event-text{
+	padding:20px;
+}
+
+.event1 img{
+	width:100%;
+	border-radius:50px;
+}
+.event1 h3{
+	color: color:#552599;
+	font-size:35px;
+	font-weight:400;
+	padding-bottom:20px;
+}
+.event1 p{
+	color:#989898;
+	font-weight:300;
+	padding-bottom:20px;
+}
+.event1 h4{
+	margin-top:5px;
+	color:#00A5F5;
+}
+/* ****************CSS FOR COMPANY Team*********************** */
+.company-team{
+	width:75%;
+	margin:0 auto 250px;
+}
+.team-title h1 {
+	font-size:50px;
+	font-weight:400;
+	color:#552599;
+	margin-bottom:25px; 
+}
+.team-member1{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding:40px;
+	border-radius:70px;
+	margin-bottom:50px;
+	
+}
+.team-member1 ul li{
+	list-style:none;
+	padding:20px;
+}
+.member-list{
+	display:flex;
+	align-items:center;
+	
+}
+.member-list li img{
+width:190px;
+height:190px;
+border-radius:50%;
+text-align:center;
+border-style:none;
+}
+.member-list li h3{
+	font-size:30px;
+	font-weight:500;
+	color:#552599;
+}
+.member-list li p{
+	font-size:20px;
+	font-weight:300;
+	color:#989898;
+}
+.member-button{
+width:120px;
+height:120px;
+border-radius:50%;
+text-align:center;
+border-style:none;
+background:white;	
+box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 10px;
+cursor:pointer;
+}
+.member-button i{
+	font-size:40px;
+	color:#00A5F5;
+}
+/* ****************CSS FOR secure Team*********************** */
+.company-secure{
+	width:75%;
+	margin:0 auto 250px;
+	display:flex;
+	justify-content:space-between;
+}
+.secure{
+	width:100%;
+}
+.secure p{
+	font-size:20px;
+	font-weight:400;
+	color:#989898;
+	padding:20px 0;
+}
+.secure h1{
+	font-size:50px;
+	font-weight:400;
+	color:#552599;
+}
+.secure-range{
+	width:100%;
+	margin:0 40px;
+}
+.range1{
+	margin-bottom:50px;
+}
+.range1 p{
+	font-size:22px;
+	font-weight:400;
+	color:#989898;
+}
+.progress-bar {
+  height: 12px;
+  width: 100%;
+  background: #eaeaea;
+  border-radius: 16px;
+  display: flex;
+  overflow: hidden;
+  margin-top:10px;
+}
+.progress-bar-fill-1 {
+  width: 92%;
+  background: #552599;
+  box-sizing: border-box;
+  border-right: 1px solid white;
+}
+.progress-bar-fill-2 {
+  width: 71%;
+  background: #552599;
+  box-sizing: border-box;
+  border-right: 1px solid white;
+}
+.progress-bar-fill-3 {
+  width: 53%;
+  background: #552599;
+  box-sizing: border-box;
+  border-right: 1px solid white;
+}
+
+/* ****************CSS FOR IMAGES company*********************** */
+.company-img{
+	width:75%;
+	margin:0 auto 150px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.company-img img{
+	height:460px;
+	width:100%;
+	border-radius:50px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.com-img1 p{
+	font-size:22px;
+	margin-top:10px;
+	 color:#989898;
+}
+/* ****************CSS FOR company FAQ*********************** */
+.company-faq{
+	width:75%;
+	margin:0 auto 200px;
+	display:block;
+}
+.acc-faq{
+	text-align:center;
+	margin-bottom:30px;
+}
+.acc-faq h1{
+	font-size:50px;
+	font-weight:400;
+	color:#552599;
+}
+.faq-1{
+	width:100%;
+	padding:40px;
+	margin-bottom:30px;
+	height:auto;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	border-radius:50px;
+	align-items:center;
+}
+.faq-button{
+width:80px;
+height:80px;
+border-radius:50%;
+text-align:center;
+border-style:none;
+background:white;	
+box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 10px;
+cursor:pointer;
+}
+.faq-button i{
+	font-size:20px;
+	color:#552599;
+}
+.faq-panel{
+	display:none;
+	width:100%;
+	margin:5px 20px;
+	padding-right:200px;
+	overflow: hidden;
+}
+/* ****************CSS FOR company CLIENTS*********************** */
+.company-client{
+	width:75%;
+	margin:0 auto 200px;
+}
+.client-title{
+	text-align:center;
+	margin-bottom:40px;
+}
+.client-title h1{
+	font-size:50px;
+	font-weight:400;
+	color:#552599;
+}
+.clients{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius:40px;
+	padding:50px;
+}
+.client-logo{
+width:180px;
+height:180px;
+border-radius:50%;
+text-align:center;
+border-style:none;
+}
+
+/* ****************CSS FOR company testimonials*********************** */
+.company-test{
+	width:75%;
+	margin:0 auto 200px;
+}
+.test-title{
+	text-align:center;
+	margin-bottom:40px;
+}
+.test-title h1{
+	font-size:50px;
+	font-weight:400;
+	color:#552599;
+}
+.testimonials{
+	display:flex;
+	justify-content:space-between;	
+}
+.testimonials-1{
+	width:70%;
+	height:400px;
+	padding:35px;
+	border-radius:30px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin-right:50px;
+}
+.testimonials-1 p{
+	font-size:20px;
+	color:#989898;
+}
+.testimonials-client{
+	display:flex;
+	margin:40px 0;
+	align-items:center;
+}
+.testimonials-client img{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	margin-right:20px;
+}
+.testimonials-2{
+	width:70%;
+	height:400px;
+	padding:35px;
+	border-radius:30px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	
+}
+.testimonials-2 p{
+	font-size:20px;
+	color:#989898;
+}
+/* ****************CSS FOR company contact*********************** */
+.company-contact{
+	width:75%;
+	margin:0 auto 200px;
+}
+.contact-title{
+	text-align:center;
+	margin-bottom:40px;
+}
+.contact-title h1{
+		font-size:70px;
+	font-weight:400;
+	color:#552599;
+}
+.contact-title p{
+	font-size:20px;
+	color:#989898;
+}
+.contacts{
+	display:flex;
+	justify-content:space-between;
+}
+.contact-1{
+	width:30%;
+	height:300px;
+	padding:25px;
+	padding-bottom:300px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	text-align:center;
+	border-radius:50px;
+	cursor:pointer;
+	margin-right:20px;
+}
+.contact-1 i{
+	font-size:100px;
+	color:#00A5F5;
+	padding:30px;
+}
+.contact-1 h2{
+	color:#552599;
+	font-size:30px;
+	font-weight:500;
+	margin-bottom:10px;
+}
+.contact-1 p{
+	color:#989898;
+	font-size:20px;
+}
+/* ****************CSS FOR company subsribr*********************** */
+.company-subscribe{
+	width:75%;
+	margin:0 auto 200px;
+}
+
+.subscribe-title{
+	text-align:center;
+	margin-bottom:80px;
+}
+.subscribe-title h1{
+	font-size:50px;
+	font-weight:400;
+	color:#552599;
+	margin-bottom:20px;
+}
+.subscribe-title p{
+	font-size:20px;
+	color:#989898;
+}
+.subscribe-1{
+display:flex;
+justify-content:center;
+}
+.main-container{
+width:50%;
+display:flex;
+background:#F3F3F3;
+border-radius:50px;
+height:70px;
+justify-content:space-between;
+align-items:center;
+padding: 20px;
+margin-right:20px;
+}
+.main-container i{
+font-size:20px;
+color:#989898;
+}
+.input-container{
+width:95%;
+height:100%;
+border-radius:50px;
+outline:0;
+border-style:none;
+background:#F3F3F3;
+color:#552599;
+font-size:20px;
+}
+.subscribe-1 button{
+	border-radius:50px;
+	height:70px;
+	border-style:none;
+	color:white;
+	background:#00A5F5;
+	width:20%;
+	font-size:20px;
+	padding:25px 80px;
+	text-align:center;
+}
+/* ****************CSS FOR company location*********************** */
+.company-location{
+	width:75%;
+	margin:0 auto 200px;
+}
+.location-title{
+	text-align:center;
+	margin-bottom:40px;
+}
+.company-location h1{
+	font-size:50px;
+	font-weight:400;
+	color:#552599;
+}
+.locations{
+	display:flex;
+	text-align:center;
+}
+.location-1 img{
+	width:95%;
+	height:auto;
+	border-radius:50px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	cursor:pointer;
+}
+/* ****************CSS FOR footer*********************** */
+footer{
+	display:flex;
+	justify-content:space-between;
+	color:#D8D8D8;
+	width:75%;
+	margin:0 auto 40px;
+}
+footer h1{
+	font-weight:400;
+}
+footer p{
+	font-size:20px;
+}
+/* ***************************media querry for moblie****************************/
+@media screen and (max-width: 767px) {
+
+.checkbtn{
+    display:inline;
+	line-height:100px;
+  }
+nav{
+	padding:0px;
+}
+label.logo{
+	line-height: 100px;
+	padding: 0px;
+	margin-left:40px;
+	font-size:40px;
+}
+ nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 120px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+	
+ .company-name{
+	display:block;
+	margin:100px auto;
+	text-align:left;
+ }
+ .company-name .name{
+	 width:100%;
+	 text-align:left;
+ }
+ .name h1{
+	 border-style:none;
+	 border-bottom:3px solid #00A5F5;
+	 padding:0 0 30px 0;
+ }
+  .company-name .info1{
+	  width:100%;
+	  margin:0;
+	  text-align:left;
+  }
+  .company-features{
+	 width:100%;
+	 margin-left:10px;
+	 margin-top:150px;
+  }
+  .feat-info{
+	  text-align:left;
+	margin-left:40px;
+		  
+  }
+  .features{
+	  display:block;
+  }
+  .features .feat1{
+	  margin:20px auto;
+	  width:90%;
+  }
+  .about-company{
+	  display:block;
+	  margin-top:150px;
+  }
+  .about-company .company{
+	  width:100%;
+	  text-align:left;
+	  margin-bottom:20px;
+  }
+	.about-company .about{
+	  width:100%;
+	  text-align:left;
+  }
+  .company-products{
+	 margin-top:150px;
+	  width:100%;
+	  margin-left:5px;
+	  margin-bottom:150px;
+  }
+  .products1{
+	  width:100%; 
+  }
+  .company-event{
+	  margin:150px auto;
+  }
+  .event-title{
+	  text-align:left;
+  }
+  .event-text{
+	padding:10px;
+}
+  .events{
+	  display:block;
+	
+	  width:100%;
+  }
+  .event1{
+	  width:110%;
+	  margin:0 20px 25px 0;
+  }
+  .event1 h3,p{
+	  padding-bottom:5px;
+  }
+  /* ****************************************Company teammedia********************** */
+  .team-member1{
+	  display:block;
+	  width:100%;
+	  text-align:center;
+	  border-radius:40px;
+  }
+  .member-list{
+	  display:block;
+	  padding:0;
+	  text-align:center;
+
+  }
+  .team-member1 ul li{
+	  padding:1px;
+  }
+   .member-list li h3{
+	font-size:18px;
+}
+  .member-list li p{
+	font-size:15px;
+}
+.member-button{
+width:60px;
+height:60px;
+padding:0 100px;
+text-align:center;
+margin-top:20px;
+border-radius:50px;
+}
+.company-team{
+	margin:150px auto;
+}
+
+  
+   /* ****************************************Company SECURE media********************** */
+  .company-secure{
+	  display:block;
+  }
+  .secure{
+	width:100%;  
+	margin-bottom:40px;
+  }
+  .secure-range{
+	  margin:0;
+	  width:100%;
+  }
+     /* ****************************************Company SECURE media********************** */
+  .company-img{
+	  width:100%;
+	  justify-content:space-between;
+	  display:block;
+  }
+   .company-img img{
+	   height:auto;
+	   width:80%;
+   }
+   .com-img1{
+	   text-align:center;
+	   margin-bottom:20px;
+   }
+   /* ****************************************Company FAQ********************** */
+	.acc-faq{
+		text-align:left;
+	}
+	.faq-1{
+		display:block;
+		text-align:center;
+	}
+	.faq-button{
+		border-radius:20px;
+		padding:0 50%;
+		margin-top:30px;
+	}
+	.faq-button i{
+		font-size:20px;
+	}
+	.faq-panel{
+		width:100%;
+		padding:0;
+		text-align:left;
+		margin: 10px 2px;
+	}
+	.faq-panel p {
+		font-size:15px;
+	}
+	
+	 /* ****************************************Company clients********************** */
+	.client-logo{
+		width:90px;
+		height:90px;
+		margin-bottom:20px;
+	}
+	.clients{
+		padding:20px;
+	}
+ /* ****************************************Company testimonials********************** */
+	.testimonials{
+		display:block;
+		width:100%;
+	}
+	.testimonials-1,.testimonials-2{
+	width:100%;
+	height:auto;
+	padding:20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin-bottom:50px;
+}
+.testimonials-1 p,.testimonials-2 p{
+	font-size:15px;
+	color:#989898;
+}
+.testimonials-client{
+	display:flex;
+	margin:20px 0;
+	align-items:center;
+}
+.testimonials-client img{
+	height:80px;
+	width:80px;
+}
+	 /* ****************************************Company contact********************** */
+	.company-subscribe{
+		margin
+		
+	}
+	.contacts{
+		display:block;
+	}
+	.contact-1{
+		width:100%;
+		margin-bottom:20px;
+	}
+	/* ****************************************Company subscriibe********************** */
+	.company-subscribe{
+	
+	margin:0 auto 150px;
+}
+	.subscribe-1{
+		display:block;
+		text-align:center;
+	}
+	.subscribe-title p{
+		text-align:left;
+	}
+	.main-container{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.subscribe-1 button{
+		width:60%;
+		padding:10px;
+	}
+	/* ****************************************Company location********************** */
+	.company-location{
+	
+	margin:0 auto 100px;
+	}
+	.location-title{
+		text-align:left;
+	}
+	.locations{
+		display:block;
+	}
+	.location-1 img{
+		width:100%;
+		margin-bottom:15px;
+	}
+	/* ****************************************Company footer********************** */
+	footer{
+		display:block;
+	}
+	footer p{
+			font-size:12px;
+	}
+	
+}
+/* ***************************media querry for tablet****************************/
+@media screen and (min-width:767px) and (max-width:1023px) {
+	 .checkbtn{
+    display: block;
+  }
+  label.logo{
+	padding: 0px;
+}
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 120px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+/* *******************css company name********** */
+.company-name{
+	display:flex;
+	width:75%;
+}
+.company-name .name{
+	width:100%;	
+}
+.name h1{
+	font-size:50px;
+}
+.name h3{
+	font-size:20px;
+}
+.company-name .info1{
+	padding:0;
+	margin:0;
+	width:100%;
+}
+.company-name .info1 p{
+	font-size:18px;
+	padding:10px 30px;
+}
+
+/* ***************css company features********** */
+.company-features{
+	width:75%;
+}
+.feat-info{
+	text-align:center;
+}
+.features{
+	display:flex;
+	justify-content:space-between;
+	text-align:center;
+	margin:50px 0;
+}
+.features .feat1{
+	width:30%;
+	padding:20px;
+	border-radius:40px;
+	cursor:pointer;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.feat1 i{
+	font-size:40px;
+	color:#00A5F5;
+	padding:20px;
+}
+.feat1  h3{
+	font-size:15px;
+}
+.feat1 p{
+	font-size:10px;
+	padding:10px 0;
+}
+	
+/* ***************css company about********** */
+.about-company .company{
+	width:100%;
+	margin-right:50px;
+}
+.company h1{
+	font-size:50px;
+	font-weight:400;
+	color:#552599;
+}
+.company p {
+	font-size:15px;
+	color:#989898;
+}
+.about p{
+	font-size:15px;
+	color:#989898;
+}
+/* ***************css company products********** */
+.products1{
+	width:100%;
+}
+.products1 .price h3{
+	font-size:25px;
+}
+.products1 p{
+	font-size:15px;
+}
+/* ***************css company events********** */
+	
+.events{
+	display:block;
+}
+.event1{
+	width:100%;
+	margin:10px;
+	padding:15px;
+	margin-bottom:50px;
+}
+.event-text{
+	padding:10px;
+}
+.event1 h3{
+	color: color:#552599;
+	font-size:35px;
+	font-weight:400;
+	padding-bottom:10px;
+}
+.event1 p{
+	color:#989898;
+	font-weight:300;
+	padding-bottom:10px;
+}
+.event1 h4{
+	margin-top:5px;
+	color:#00A5F5;
+}
+/* ***************css company team********** */
+.member-list li img{
+width:120px;
+height:120px;
+}
+.member-list li h3{
+	font-size:25px;
+}
+.member-button{
+width:90px;
+height:90px;
+}
+.member-button i{
+	font-size:30px;
+}
+/* ***************css company secure********** */
+.company-secure{
+	align-items:center;
+}
+.secure-range{
+	width:100%;
+	margin:0 0 0 40px;
+}
+
+.range1 p{
+	font-size:20px;
+	font-weight:400;
+	color:#989898;
+}
+
+/****************css company images********** */
+	.company-img{
+		display:block;
+	}
+	.company-img img{
+		height:400px;
+	}
+	.com-img1{
+		margin-bottom:50px;
+	}
+	
+/****************css company faq********** */
+
+.faq-1{
+	width:100%;
+	padding:30px;
+	margin-bottom:30px;
+	height:auto;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	border-radius:50px;
+	align-items:center;
+}
+.faq-1 p{
+	font-size:12px;
+}
+.faq-button{
+width:40px;
+height:40px;
+}
+.faq-button i{
+	font-size:15px;
+}
+.faq-panel{
+	display:none;
+	width:100%;
+	margin:5px 10px;
+	padding-right:100px;
+	overflow: hidden;
+}
+/**********css company Clients********** */
+.client-logo{
+	margin:10px;
+}
+/**********css company testimonials********** */
+	.testimonials-1{
+		width:100%;
+		margin-right:50px;
+	}
+	.testimonials-1 p{
+		font-size:12px;
+	}
+	.testimonials-2{
+		width:100%;
+	}
+	.testimonials-2 p{
+		font-size:12px;
+	}
+	.testimonials-client img{
+	height:70px;
+	width:70px;
+	}
+	.testimonials-client h3{
+		font-size:15px;
+	}
+/**********css company contact********** */
+
+.contacts{
+	display:flex;
+	justify-content:space-between;
+}
+.contact-1{
+	width:40%;
+	height:auto;
+	padding:0px;
+}
+.contact-1 i{
+	font-size:60px;
+	color:#00A5F5;
+	padding:30px;
+}
+.contact-1 h2{
+	color:#552599;
+	font-size:20px;
+	font-weight:500;
+	margin-bottom:10px;
+}
+.contact-1 p{
+	color:#989898;
+	font-size:10px;
+	margin-bottom:40px;
+}
+/**********css company subscribe********** */
+.subscribe-title{
+	text-align:left;
+}
+.subscribe-title p{
+	font-size:15px;
+}
+.main-container{
+width:100%;
+}
+.subscribe-1 button{
+	width:25%;
+	font-size:16px;
+	padding:25px 40px;
+}
+/**********css company location********** */
+
+.locations{
+	display:block;
+}
+.location-1 img{
+	width:100%;
+	margin-bottom:40px;
+}
+
+/**********css  footer********** */
+footer{
+	display:flex;
+	justify-content:space-between;
+	color:#D8D8D8;
+	width:75%;
+	margin:0 auto 40px;
+}
+footer h1{
+	font-weight:400;
+	margin-right:100px;
+}
+footer p{
+	font-size:10px;
+}
+
+/**********css  footer********** */
+	
+	
+}
+
+
+
